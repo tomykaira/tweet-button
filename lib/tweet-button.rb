@@ -1,3 +1,5 @@
+require File.join(File.dirname(__FILE__), 'tweet-button', 'railitie') if defined?(Rails::Railtie)
+
 module TweetButton
   TWITTER_SHARE_URL = "http://twitter.com/share"
   
